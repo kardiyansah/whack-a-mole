@@ -211,14 +211,14 @@ main:active {
 @media screen and (max-width: 576px) {
   main {
     width: 80%;
-    cursor: pointer;
+    cursor: none;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 25vmax);
     row-gap: 0;
   }
 
   main:active {
-    cursor: pointer;
+    cursor: none;
   }
 
   .mole.popping {
